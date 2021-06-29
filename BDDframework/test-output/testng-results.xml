@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10753" started-at="2021-03-23T17:15:21Z" finished-at="2021-03-23T17:15:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10753" started-at="2021-03-23T17:15:21Z" finished-at="2021-03-23T17:15:32Z">
+      <class name="com.w2e.java.CarsearchSteps">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2e.java.CarsearchSteps@4563e9ab]" name="setUp" is-config="true" duration-ms="5430" started-at="2021-03-23T22:45:21Z" finished-at="2021-03-23T22:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="i_am_on_the_Homepage_of_carsguide_website()[pri:0, instance:com.w2e.java.CarsearchSteps@4563e9ab]" name="i_am_on_the_Homepage_of_carsguide_website" duration-ms="5294" started-at="2021-03-23T22:45:26Z" finished-at="2021-03-23T22:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_on_the_Homepage_of_carsguide_website -->
+      </class> <!-- com.w2e.java.CarsearchSteps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

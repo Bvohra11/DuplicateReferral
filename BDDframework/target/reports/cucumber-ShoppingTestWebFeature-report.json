@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3157757900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CarsearchSteps.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validation of Car Search Functionality",
+        "description": "",
+        "id": "home-functionality;validation-of-car-search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 912077900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CarsearchSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7076716700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the Homepage of carsguide website",
+            "match": {
+              "location": "CarsearchSteps.i_am_on_the_Homepage_of_carsguide_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5450305300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#When I move to buy search cars"
+              }
+            ],
+            "line": 9,
+            "name": "I click on Search Cars",
+            "match": {
+              "location": "CarsearchSteps.i_click_on_Search_Cars()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Home Functionality",
+    "description": "",
+    "id": "home-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
